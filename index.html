@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="адрес_файла_стилей.css" rel="stylesheet">
-    <title class="title">
+    <link href="style.css" rel="stylesheet">
+    <title>
         CV Anna Devyatovskaya
     </title>
 </head>
@@ -14,7 +14,7 @@
 <body>
 
     <header>
-        <div class="container">
+        <div class="header">
             <div class="main_photo">
                 <img src="img\rsschool_cv_photo.jpg" width="260" height="180" alt="photo">
             </div>
@@ -40,11 +40,11 @@
             </nav>
     </section>
 
-    <section class="contact_info" id="contact_info">
-        <div class="contact_info_title">
+    <section class="section" id="contact_info">
+        <div class="section_title">
             <h2>Contact Information</h2>
         </div>
-        <div class="contact_info_container">
+        <div class="section_text">
             <ul>
                 <li>Tel. number: +7-912-000-00-00</li>
                 <li>Email: a.devt@list.ru</li>
@@ -55,23 +55,23 @@
 
     <main>
 
-        <section class="profile_info" id="profile">
-            <div class="profile_title">
+        <section class="section" id="profile">
+            <div class="section_title">
                 <h2>Profile</h2>
             </div>
-            <div class="profile_container">
+            <div class="section_text">
                 <p>I am currently working as an office-manager in an IT-company.<br>
                     In the foreseeable future I intend to move up the career ladder, <br>
                     but in a few years I suppose to change my profession to front-end developer.
                 </p>
             </div>
-            </section>
+        </section>
 
-        <section class="education_info" id="education">
-            <div class="education_title">
+        <section class="section" id="education">
+            <div class="section_title">
                 <h2>Education</h2>
             </div>
-            <div class="education_container">
+            <div class="section_text">
                 <ul>
                     <li>Udmurt State University, departement of Theory and Practice of Cross-Cultural Communication, Bachelor’s degree in Linguistics (2016-2020).</li>
                     <li>HTML, CSS and JS basics on SoloLearn. <a href="https://www.sololearn.com/profile/15940946/">Here</a> you can see all my sertificates.</li>
@@ -79,11 +79,11 @@
             </div>
         </section>
 
-        <section class="experience_info" id="experience">
-            <div class="experience_title">
+        <section class="section" id="experience">
+            <div class="section_title">
                 <h2>Experience</h2>
             </div>
-            <div class="experience_container">
+            <div class="section_text">
                 <ul>
                     <li>from 01.2018 to 08.2020 - MedlabExpress, Medical Registrar</li>
                     <li>from 09.2020 to the present - Directum, office-manager</li>
@@ -91,11 +91,11 @@
             </div>
         </section>
 
-        <section class="skills_info" id="skills">
-            <div class="skills_title">
+        <section class="section" id="skills">
+            <div class="section_title">
                 <h2>Skills</h2>
             </div>
-            <div class="skills_container">
+            <div class="section_text">
                 <ul>
                     <li>Creativity</li>
                     <li>Critical Thinking</li>
@@ -121,34 +121,34 @@
             </div>
         </section>
 
-        <section class="code_example_info" id="code_example">
-            <div class="code_example_title">
+        <section class="section" id="code_example">
+            <div class="section_title">
                 <h2>Code Example</h2>
             </div>
-                <div class="code_example_container">
+                <div class="section_text">
                     <pre>
                         <code>
-                            &lt;section class=&quot;menu_section&quot;&gt;
-                                &lt;nav class=&quot;menu&quot;&gt;
-                                    &lt;ul&gt;
-                                        &lt;li&gt;&lt;a href=&quot;#contact_info&quot;&gt;Contact information&lt;/a&gt;&lt;/li&gt;
-                                        &lt;li&gt;&lt;a href=&quot;#profile&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
-                                        &lt;li&gt;&lt;a href=&quot;#education&quot;&gt;Education&lt;/a&gt;&lt;/li&gt;
-                                        &lt;li&gt;&lt;a href=&quot;#experience&quot;&gt;Experience&lt;/a&gt;&lt;/li&gt;
-                                        &lt;li&gt;&lt;a href=&quot;#skills&quot;&gt;Skills&lt;/a&gt;&lt;/li&gt;
-                                        &lt;li&gt;&lt;a href=&quot;#code_example&quot;&gt;Code Example&lt;/a&gt;&lt;/li&gt;
-                                        &lt;/ul&gt;
-                                &lt;/nav&gt;
-                            &lt;/section&gt;
+&lt;section class=&quot;menu_section&quot;&gt;
+    &lt;nav class=&quot;menu&quot;&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;#contact_info&quot;&gt;Contact information&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#profile&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#education&quot;&gt;Education&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#experience&quot;&gt;Experience&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#skills&quot;&gt;Skills&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#code_example&quot;&gt;Code Example&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+    &lt;/nav&gt;
+&lt;/section&gt;
 
-                            &lt;section class=&quot;contact_info&quot; id=&quot;contact_info&quot;&gt;
-                                &lt;h2&gt;Contact Information&lt;/h2&gt;
-                                    &lt;ul&gt;
-                                        &lt;li&gt;Tel. number: +7-912-000-00-00&lt;/li&gt;
-                                        &lt;li&gt;Email: a.devt@list.ru&lt;/li&gt;
-                                        &lt;li&gt;VK: &lt;a href=&quot;https://vk.com/anndevt&quot;&gt;Anna Devyatovskaya&lt;/a&gt;&lt;/li&gt;
-                                    &lt;/ul&gt;
-                            &lt;/section&gt;
+&lt;section class=&quot;contact_info&quot; id=&quot;contact_info&quot;&gt;
+    &lt;h2&gt;Contact Information&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Tel. number: +7-912-000-00-00&lt;/li&gt;
+            &lt;li&gt;Email: a.devt@list.ru&lt;/li&gt;
+            &lt;li&gt;VK: &lt;a href=&quot;https://vk.com/anndevt&quot;&gt;Anna Devyatovskaya&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+&lt;/section&gt;
                         </code>
                     </pre>
                 </div>    
