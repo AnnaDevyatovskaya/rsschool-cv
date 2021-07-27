@@ -7,21 +7,26 @@
     display: inline;
 }
 
+hr{
+    margin: 0 auto;
+}
+
 body{
+    margin: 0 auto;
     max-width: 800px;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5;
     text-align: center;
-    background-color: rgb(202, 211, 203);
     border: solid 3px;
 }
 
 .header{
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
     display: flex;
+    background-color: rgb(202, 211, 203);
+    border: 0px;
 }
 
 .main_photo{
@@ -46,23 +51,26 @@ body{
 
 .section{
     width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .container{
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0px auto;
+    background-color: rgb(202, 211, 203);
 }
 
 .footer{
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    background-color: rgb(202, 211, 203);
 }
 
 ul{
     text-align: center;
+    list-style-position: inside;
 }
 
+.ul_footer{
+    list-style: none;
+}
